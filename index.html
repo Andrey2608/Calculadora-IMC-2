@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      background-image: url('Goku fusion.jpg'); 
+      background-size: cover; 
+      background-attachment: fixed;
+    }
+  </style>
+  <title>Calculadora IMC</title>
+</head>
+<body>
+  <section id="introduccion">
+    <h1>Índice de Masa Corporal (IMC)</h1>
+    <p>¿Qué es?
+        El índice de masa corporal (IMC) es un método utilizado para estimar la cantidad de grasa corporal que tiene una persona, y determinar por tanto si el peso está dentro del rango normal, o por el contrario, se tiene sobrepeso o delgadez. Para ello, se pone en relación la estatura y el peso actual del individuo. Esta fórmula matemática fue ideada por el estadístico belga Adolphe Quetelet, por lo que también se conoce como índice de Quetelet o Body Mass Index (BMI).
+        
+        Actualmente, esta fórmula está cayendo en desuso porque se está viendo que el IMC no hace diferencia entre la grasa corporal y la muscular, lo que hace que no sea muy exacto. “Un deportista o un culturista van a tener siempre un sobrepeso si tenemos en cuenta su peso respecto a la altura, pero no tienen los problemas de salud que tiene una persona obesa. Esta última tiene problemas debido a la cantidad de grasa que tienen, no por el peso”, explica Carmen Escalada, nutricionista del Instituto Médico Europeo de la Obesidad (IMEO). La cantidad de grasa marca mejor nuestro estado de salud.
+        
+        </p>
+    <p>Cómo se calcula: El IMC se calcula de la misma manera tanto para adultos como para niños. El cálculo se basa en las siguientes fórmulas:
+
+        Fórmula: peso (kg) / [estatura (m)]2
+        Con el sistema métrico, la fórmula para el IMC es el peso en kilogramos dividido por la estatura en metros cuadrados. Debido a que la estatura por lo general se mide en centímetros, divida la estatura en centímetros por 100 para obtener la estatura en metros.
+        
+        Ejemplo: Peso = 68 kg, Estatura = 165 cm (1.65 m)
+        Cálculo: 68 ÷ (1.65)2 = 24.98</p>
+  </section>
+
+  <section id="tendencias_adultos">
+    <h2>Tendencias y Valores para Adultos</h2>
+    <p>El índice de masa corporal (IMC) es el peso de una persona en kilogramos dividido por el cuadrado de la estatura en metros. El IMC es un método de evaluación fácil y económico para la categoría de peso: bajo peso, peso saludable, sobrepeso, y obesidad.
+
+        El IMC no mide la grasa corporal directamente, pero el IMC se correlaciona moderadamente con medidas más directas de la grasa corporal1,2,3. Además, el IMC parece estar tan fuertemente correlacionado con diversos resultados metabólicos y de enfermedades como lo están estas medidas más directas de la grasa corporal.</p>
+  </section>
+
+  <section id="tendencias_ninos_adolescentes">
+    <h2>Tendencias y Valores para Niños y Adolescentes</h2>
+    <p>Para los niños y adolescentes, el IMC es específico con respecto a la edad y el sexo, y con frecuencia se conoce como el IMC por edad. En los niños, una gran cantidad de grasa corporal puede provocar enfermedades relacionadas con el peso y otros problemas de salud. Tener bajo peso también puede poner a uno en riesgo de problemas de salud.
+
+        Un IMC alto puede indicar una grasa corporal elevada. El IMC no mide la grasa corporal directamente, pero el IMC se correlaciona con medidas más directas de la grasa corporal</p>
+  </section>
+
+  <section id="calculadora_imc">
+    <h2>Calculadora de IMC</h2>
+    <label for="altura">Altura (cm):</label>
+    <input type="number" id="altura">
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso">
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <p id="resultado"></p>
+    <p id="estado"></p>
+  </section>
+
+  <section id="referencias">
+    <h2>Referencias Bibliográficas</h2>
+    <ul>
+        <li><a href="https://medical-solutions.com.mx/la-importancia-del-indice-de-masa-corporal-imc/">Medical Solutions</a></li>
+        <li><a href="https://cuidateplus.marca.com/alimentacion/diccionario/indice-masa-corporal-imc.html">Cuidate Plus</a></li>
+        <li><a href="https://www.cdc.gov/healthyweight/spanish/assessing/bmi/childrens_bmi/acerca_indice_masa_corporal_ninos_adolescentes.html#:~:text=El%20índice%20de%20masa%20corporal,pueden%20provocar%20problemas%20de%20salud.">Centros para el Control y la Prevención de Enfermedades (CDC)</a></li>
+    </ul>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
